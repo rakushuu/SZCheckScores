@@ -158,7 +158,7 @@ jobs:
             echo "${protocol}${anonymized_domain}${path}"
           }
 
-          LOGINURL="xtgl/login_slogin.html"
+          LOGINURL=""
 
           # 方便通过截图快速定位到用户
           echo "Url: $(anonymize_domain "$URL")${LOGINURL}"  # 调用 anonymize_domain 函数处理 URL 并输出结果
